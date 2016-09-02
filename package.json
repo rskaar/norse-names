@@ -10,19 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rskaar/norse-names.git"
+    "url": "https://github.com/pus/norse-names.git"
   },
   "keywords": [
     "random",
     "norse",
     "mythology"
   ],
-  "author": "Roar Skår <roar.skaar@gmail.com> (https://github.com/rskaar)",
+  "author": "Pus (https://github.com/pus)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rskaar/norse-names/issues"
+    "url": "https://github.com/pus/norse-names/issues"
   },
-  "homepage": "https://github.com/rskaar/norse-names#readme",
+  "homepage": "https://github.com/pus/norse-names#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
   },
