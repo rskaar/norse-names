@@ -26,5 +26,14 @@ describe('norse-names', function () {
       expect(norseNames.all).to.include(randomItem)
       done()
     })
+
+    it('should return a list of items if passed a number', function (done) {
+      var randomItems = norseNames.random(3);
+      expect(randomItems).to.have.length(3)
+      randomItems.forEach(function (item) {
+        expect(norseNames.all).to.include(item)
+      })
+      done()
+    })
   })
 })
