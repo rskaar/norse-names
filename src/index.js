@@ -1,5 +1,6 @@
-var uniqueRandomArray = require('unique-random-array')
-var norseNames = require('./norse-names.json')
+import uniqueRandomArray from 'unique-random-array'
+import norseNames from './norse-names.json'
+
 var getRandomItem = uniqueRandomArray(norseNames)
 
 module.exports = {

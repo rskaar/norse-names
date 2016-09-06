@@ -1,5 +1,5 @@
-var expect = require('chai').expect
-var norseNames = require('./index')
+import {expect} from 'chai'
+import norseNames from './index'
 
 describe('norse-names', function () {
   describe('all', function () {
